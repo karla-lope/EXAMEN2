@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+:root{
+	--color-titulos:#2750d0;
+	--color-contenido:#333;
+	--color-naranja:#ff9f06;
+	--color-azul:#2750d0;
+	--fondo-footer:#091f5b;
+}
+header{
+	background-color: #fff;
+}	
+	h1,h2,h3,h4,h5,h6,footer{
+	font-family: 'Open Sans', sans-serif;
+		
+}
+
+p{
+	font-family: 'open-Sans' san-serif;
+
+}
+#hero{
+	background-image: url("../img/slide-1.jpg");
+	background-size: cover;
+	background-position: top center;
+	min-height: 400px;
+	padding: 15% 0px;
+	color: #ff9f06;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: #acbad4;
+	padding: 30px 0;
+	text-align: center;
+	font-size: 13px;
+}
+#our-services{
+	text-align: center;
+	font-size: 30px;
+	color: #2750d0;
+	padding: 30px 0;
+	
+}
+#parrafo{
+	text-align: center;
+	font-size: 15px;
+	color: #333;
+}
+#carrusel h3{
+	font-size: 16px;
+	font-weight: 600;
+	color: var(#333);
+	margin-bottom: 20px;
+	padding: 30px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+#carrusel p{
+	font-size: 15px;
+	text-align: center;
+}
+#carrusel{
+	border-top: 1px solid #eee;
+}
+
+#carrusel.section{
+	padding-top: 50px;
+}
+#Welcome{
+	text-align: center;
+	font-size: 30px;
+	color: #2750d0;
+	padding: 30px 0;
+	
+}
+#wel{
+	text-align: center;
+	font-size: 15px;
+	color: #333;	
+}
+#lista{
+	text-align: left;
+	font-size: 15px;
+	color: #333;	
+}
+#Clients{
+	text-align: center;
+	font-size: 30px;
+	color: #2750d0;
+	padding: 30px 0;	
+}
+#gallery{
+	text-align: center;
+	font-size: 30px;
+	color: #2750d0;
+	padding: 30px 0;	
+}
